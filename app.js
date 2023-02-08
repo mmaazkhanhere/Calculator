@@ -2,7 +2,6 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
-
 function turnOff() {
     return new Promise((resolve) => {
         setTimeout(resolve, 2500); //will turn off after 2.5 sec
